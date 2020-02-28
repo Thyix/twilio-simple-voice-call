@@ -4,7 +4,7 @@
       "description": "Simple package for React Native to help people make voice calls with Twilio",
       "main": "index.js",
       "devDependencies": {},
-      "homepage": "https://github.com/hoxfon/react-native-twilio-programmable-voice",
+      "homepage": "https://github.com/Thyix/twilio-simple-voice-call",
       "keywords": [
           "twilio",
           "react-native",

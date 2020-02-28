@@ -2,7 +2,7 @@ import {
     NativeModules,
     NativeEventEmitter,
     Platform,
-} from 'react-native'
+} from 'react-native';
 
 const ANDROID = 'android'
 const IOS = 'ios'
@@ -104,7 +104,9 @@ const Twilio = {
         if (_eventHandlers[type].has(handler)) {
             return
         }
-        _eventHandlers[type].set(handler, NativeAppEventEmitter.addListener(type, rtn => { handler(rtn) }))
+        _eventHandlers[type].set(handler, NativeAppEventEmitter.addListener(type, rtn => {
+            handler(rtn)
+        }))
     },
     removeEventListener(type, handler) {
         if (!_eventHandlers[type].has(handler)) {

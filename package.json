@@ -1,0 +1,31 @@
+  {
+      "name": "twilio-simple-voice-call",
+      "version": "0.0.1",
+      "description": "Simple package for React Native to help people make voice calls with Twilio",
+      "main": "index.js",
+      "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "devDependencies": {},
+      "homepage": "https://github.com/hoxfon/react-native-twilio-programmable-voice",
+      "keywords": [
+          "twilio",
+          "react-native",
+          "voice",
+          "programmable",
+          "android",
+          "ios",
+          "simple"
+      ],
+      "bugs": {
+          "url": "https://github.com/Thyix/twilio-simple-voice-call/issues"
+      },
+      "repository": {
+          "type": "git",
+          "url": "git+ssh://git@github.com:Thyix/twilio-simple-voice-call.git"
+      },
+      "author": {
+          "name": "William Garneau"
+      },
+      "license": "MIT"
+  }

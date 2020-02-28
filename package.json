@@ -1,6 +1,6 @@
   {
       "name": "twilio-simple-voice-call",
-      "version": "0.0.2",
+      "version": "0.0.4",
       "description": "Simple package for React Native to help people make voice calls with Twilio",
       "main": "index.js",
       "devDependencies": {},

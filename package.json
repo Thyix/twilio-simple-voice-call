@@ -17,6 +17,9 @@
       "bugs": {
           "url": "https://github.com/Thyix/twilio-simple-voice-call/issues"
       },
+      "publishConfig": {
+          "registry": "https://www.npmjs.com/package/twilio-simple-voice-call"
+      },
       "repository": {
           "type": "git",
           "url": "git+ssh://git@github.com:Thyix/twilio-simple-voice-call.git"

@@ -16,7 +16,7 @@
 
 
 @interface TwilioSimpleVoiceCall() <PKPushRegistryDelegate, TVONotificationDelegate, TVOCallDelegate, CXProviderDelegate>
-@property (nonatomic strong) NSSring *deviceTokenString;
+@property (nonatomic, strong) NSString *deviceTokenString;
 @property (nonatomic, strong) PKPushRegistry *voipRegistry;
 @property (nonatomic, strong) TVOCallInvite *callInvite;
 @property (nonatomic, strong) TVOCall *call;
@@ -25,7 +25,7 @@
 @property (nonatomic, strong) CXCallController *callKitCallController;
 @end
 
-@implementation RNTwilioVoice {
+@implementation TwilioSimpleVoiceCall {
   NSMutableDictionary *_settings;
   NSMutableDictionary *_callParams;
   NSString *_tokenUrl;

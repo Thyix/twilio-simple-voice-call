@@ -7,33 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26C0449B2408C54400F662CF /* TwilioSimpleVoiceCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C0449A2408C54400F662CF /* TwilioSimpleVoiceCall.m */; };
-		26C0449C2408C54400F662CF /* TwilioSimpleVoiceCall.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 26C044992408C54400F662CF /* TwilioSimpleVoiceCall.h */; };
-		26C044A32408CA5600F662CF /* libTwilioSimpleVoiceCall.a in Sources */ = {isa = PBXBuildFile; fileRef = 26C044962408C54400F662CF /* libTwilioSimpleVoiceCall.a */; };
+		26C044B52409A93800F662CF /* TwilioSimpleVoiceCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C044B42409A93800F662CF /* TwilioSimpleVoiceCall.m */; };
+		26C044B62409A93800F662CF /* TwilioSimpleVoiceCall.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 26C044B32409A93800F662CF /* TwilioSimpleVoiceCall.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		26C044942408C54400F662CF /* Copy Files */ = {
+		26C044AE2409A93800F662CF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				26C0449C2408C54400F662CF /* TwilioSimpleVoiceCall.h in Copy Files */,
+				26C044B62409A93800F662CF /* TwilioSimpleVoiceCall.h in CopyFiles */,
 			);
-			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		26C044962408C54400F662CF /* libTwilioSimpleVoiceCall.a */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; includeInIndex = 0; path = libTwilioSimpleVoiceCall.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		26C044992408C54400F662CF /* TwilioSimpleVoiceCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwilioSimpleVoiceCall.h; sourceTree = "<group>"; };
-		26C0449A2408C54400F662CF /* TwilioSimpleVoiceCall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwilioSimpleVoiceCall.m; sourceTree = "<group>"; };
+		26C044B02409A93800F662CF /* libTwilioSimpleVoiceCall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTwilioSimpleVoiceCall.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C044B32409A93800F662CF /* TwilioSimpleVoiceCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwilioSimpleVoiceCall.h; sourceTree = "<group>"; };
+		26C044B42409A93800F662CF /* TwilioSimpleVoiceCall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwilioSimpleVoiceCall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		26C044932408C54400F662CF /* Frameworks */ = {
+		26C044AD2409A93800F662CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,33 +41,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26C0448D2408C54400F662CF = {
+		26C044A72409A93800F662CF = {
 			isa = PBXGroup;
 			children = (
-				26C044992408C54400F662CF /* TwilioSimpleVoiceCall.h */,
-				26C0449A2408C54400F662CF /* TwilioSimpleVoiceCall.m */,
-				26C044972408C54400F662CF /* Products */,
+				26C044B22409A93800F662CF /* TwilioSimpleVoiceCall */,
+				26C044B12409A93800F662CF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		26C044972408C54400F662CF /* Products */ = {
+		26C044B12409A93800F662CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26C044962408C54400F662CF /* libTwilioSimpleVoiceCall.a */,
+				26C044B02409A93800F662CF /* libTwilioSimpleVoiceCall.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		26C044B22409A93800F662CF /* TwilioSimpleVoiceCall */ = {
+			isa = PBXGroup;
+			children = (
+				26C044B32409A93800F662CF /* TwilioSimpleVoiceCall.h */,
+				26C044B42409A93800F662CF /* TwilioSimpleVoiceCall.m */,
+			);
+			path = TwilioSimpleVoiceCall;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		26C044952408C54400F662CF /* TwilioSimpleVoiceCall */ = {
+		26C044AF2409A93800F662CF /* TwilioSimpleVoiceCall */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26C0449F2408C54400F662CF /* Build configuration list for PBXNativeTarget "TwilioSimpleVoiceCall" */;
+			buildConfigurationList = 26C044B92409A93800F662CF /* Build configuration list for PBXNativeTarget "TwilioSimpleVoiceCall" */;
 			buildPhases = (
-				26C044922408C54400F662CF /* Sources */,
-				26C044932408C54400F662CF /* Frameworks */,
-				26C044942408C54400F662CF /* Copy Files */,
+				26C044AC2409A93800F662CF /* Sources */,
+				26C044AD2409A93800F662CF /* Frameworks */,
+				26C044AE2409A93800F662CF /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -77,24 +83,24 @@
 			);
 			name = TwilioSimpleVoiceCall;
 			productName = TwilioSimpleVoiceCall;
-			productReference = 26C044962408C54400F662CF /* libTwilioSimpleVoiceCall.a */;
+			productReference = 26C044B02409A93800F662CF /* libTwilioSimpleVoiceCall.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		26C0448E2408C54400F662CF /* Project object */ = {
+		26C044A82409A93800F662CF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "William Garneau";
 				TargetAttributes = {
-					26C044952408C54400F662CF = {
+					26C044AF2409A93800F662CF = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 26C044912408C54400F662CF /* Build configuration list for PBXProject "TwilioSimpleVoiceCall" */;
+			buildConfigurationList = 26C044AB2409A93800F662CF /* Build configuration list for PBXProject "TwilioSimpleVoiceCall" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -102,30 +108,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 26C0448D2408C54400F662CF;
-			productRefGroup = 26C044972408C54400F662CF /* Products */;
+			mainGroup = 26C044A72409A93800F662CF;
+			productRefGroup = 26C044B12409A93800F662CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				26C044952408C54400F662CF /* TwilioSimpleVoiceCall */,
+				26C044AF2409A93800F662CF /* TwilioSimpleVoiceCall */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		26C044922408C54400F662CF /* Sources */ = {
+		26C044AC2409A93800F662CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26C044A32408CA5600F662CF /* libTwilioSimpleVoiceCall.a in Sources */,
-				26C0449B2408C54400F662CF /* TwilioSimpleVoiceCall.m in Sources */,
+				26C044B52409A93800F662CF /* TwilioSimpleVoiceCall.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		26C0449D2408C54400F662CF /* Debug */ = {
+		26C044B72409A93800F662CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -183,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		26C0449E2408C54400F662CF /* Release */ = {
+		26C044B82409A93800F662CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +240,7 @@
 			};
 			name = Release;
 		};
-		26C044A02408C54400F662CF /* Debug */ = {
+		26C044BA2409A93800F662CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -247,7 +252,7 @@
 			};
 			name = Debug;
 		};
-		26C044A12408C54400F662CF /* Release */ = {
+		26C044BB2409A93800F662CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -262,25 +267,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26C044912408C54400F662CF /* Build configuration list for PBXProject "TwilioSimpleVoiceCall" */ = {
+		26C044AB2409A93800F662CF /* Build configuration list for PBXProject "TwilioSimpleVoiceCall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26C0449D2408C54400F662CF /* Debug */,
-				26C0449E2408C54400F662CF /* Release */,
+				26C044B72409A93800F662CF /* Debug */,
+				26C044B82409A93800F662CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26C0449F2408C54400F662CF /* Build configuration list for PBXNativeTarget "TwilioSimpleVoiceCall" */ = {
+		26C044B92409A93800F662CF /* Build configuration list for PBXNativeTarget "TwilioSimpleVoiceCall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26C044A02408C54400F662CF /* Debug */,
-				26C044A12408C54400F662CF /* Release */,
+				26C044BA2409A93800F662CF /* Debug */,
+				26C044BB2409A93800F662CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 26C0448E2408C54400F662CF /* Project object */;
+	rootObject = 26C044A82409A93800F662CF /* Project object */;
 }

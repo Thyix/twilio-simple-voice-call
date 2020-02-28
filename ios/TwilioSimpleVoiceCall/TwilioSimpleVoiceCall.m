@@ -7,6 +7,7 @@
 //
 
 #import "TwilioSimpleVoiceCall.h"
+#import <React/RCTLog.h>
 
 @import AVFoundation;
 @import PushKit;

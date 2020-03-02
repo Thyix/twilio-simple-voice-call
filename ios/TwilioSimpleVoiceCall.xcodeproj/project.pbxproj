@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2639AB29240CB219004F32C0 /* TwilioVoice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2639AB28240CB219004F32C0 /* TwilioVoice.framework */; };
+		2639AB2B240CB255004F32C0 /* libTwilioVoice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2639AB2A240CB255004F32C0 /* libTwilioVoice.a */; };
 		26C044B52409A93800F662CF /* TwilioSimpleVoiceCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C044B42409A93800F662CF /* TwilioSimpleVoiceCall.m */; };
 		26C044B62409A93800F662CF /* TwilioSimpleVoiceCall.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 26C044B32409A93800F662CF /* TwilioSimpleVoiceCall.h */; };
 /* End PBXBuildFile section */
@@ -25,6 +27,88 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2639AAD2240CB1DE004F32C0 /* TwilioVoice Size Impact Report.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TwilioVoice Size Impact Report.txt"; sourceTree = "<group>"; };
+		2639AAD5240CB1DE004F32C0 /* TVOIceOptionsBuilderBlock.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOIceOptionsBuilderBlock.html; sourceTree = "<group>"; };
+		2639AAD6240CB1DE004F32C0 /* TVOAcceptOptionsBuilderBlock.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOAcceptOptionsBuilderBlock.html; sourceTree = "<group>"; };
+		2639AAD7240CB1DE004F32C0 /* TVOConnectOptionsBuilderBlock.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOConnectOptionsBuilderBlock.html; sourceTree = "<group>"; };
+		2639AAD8240CB1DE004F32C0 /* TVOCallGetStatsBlock.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOCallGetStatsBlock.html; sourceTree = "<group>"; };
+		2639AAD9240CB1DE004F32C0 /* TVOAudioDeviceWorkerBlock.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOAudioDeviceWorkerBlock.html; sourceTree = "<group>"; };
+		2639AADA240CB1DE004F32C0 /* TVOAVAudioSessionConfigurationBlock.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOAVAudioSessionConfigurationBlock.html; sourceTree = "<group>"; };
+		2639AADB240CB1DE004F32C0 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = index.html; sourceTree = "<group>"; };
+		2639AADE240CB1DE004F32C0 /* _index.scss */ = {isa = PBXFileReference; lastKnownFileType = text; path = _index.scss; sourceTree = "<group>"; };
+		2639AADF240CB1DE004F32C0 /* _variables.scss */ = {isa = PBXFileReference; lastKnownFileType = text; path = _variables.scss; sourceTree = "<group>"; };
+		2639AAE0240CB1DE004F32C0 /* _xcode.scss */ = {isa = PBXFileReference; lastKnownFileType = text; path = _xcode.scss; sourceTree = "<group>"; };
+		2639AAE1240CB1DE004F32C0 /* _print.scss */ = {isa = PBXFileReference; lastKnownFileType = text; path = _print.scss; sourceTree = "<group>"; };
+		2639AAE2240CB1DE004F32C0 /* _layout.scss */ = {isa = PBXFileReference; lastKnownFileType = text; path = _layout.scss; sourceTree = "<group>"; };
+		2639AAE3240CB1DE004F32C0 /* _object.scss */ = {isa = PBXFileReference; lastKnownFileType = text; path = _object.scss; sourceTree = "<group>"; };
+		2639AAE4240CB1DE004F32C0 /* style.scss */ = {isa = PBXFileReference; lastKnownFileType = text; path = style.scss; sourceTree = "<group>"; };
+		2639AAE5240CB1DE004F32C0 /* _normalize.scss */ = {isa = PBXFileReference; lastKnownFileType = text; path = _normalize.scss; sourceTree = "<group>"; };
+		2639AAE6240CB1DE004F32C0 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		2639AAE8240CB1DE004F32C0 /* TVOIceServer.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOIceServer.html; sourceTree = "<group>"; };
+		2639AAE9240CB1DE004F32C0 /* TVODefaultAudioDevice.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVODefaultAudioDevice.html; sourceTree = "<group>"; };
+		2639AAEA240CB1DE004F32C0 /* TVOCall.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOCall.html; sourceTree = "<group>"; };
+		2639AAEB240CB1DE004F32C0 /* TVOLocalAudioTrackStats.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOLocalAudioTrackStats.html; sourceTree = "<group>"; };
+		2639AAEC240CB1DE004F32C0 /* TwilioVoice.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TwilioVoice.html; sourceTree = "<group>"; };
+		2639AAED240CB1DE004F32C0 /* TVORemoteTrackStats.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVORemoteTrackStats.html; sourceTree = "<group>"; };
+		2639AAEE240CB1DE004F32C0 /* TVOIceCandidatePairStats.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOIceCandidatePairStats.html; sourceTree = "<group>"; };
+		2639AAEF240CB1DE004F32C0 /* TVOConnectOptions.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOConnectOptions.html; sourceTree = "<group>"; };
+		2639AAF0240CB1DE004F32C0 /* TVOStatsReport.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOStatsReport.html; sourceTree = "<group>"; };
+		2639AAF1240CB1DE004F32C0 /* TVOCancelledCallInvite.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOCancelledCallInvite.html; sourceTree = "<group>"; };
+		2639AAF2240CB1DE004F32C0 /* TVOIceOptionsBuilder.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOIceOptionsBuilder.html; sourceTree = "<group>"; };
+		2639AAF3240CB1DE004F32C0 /* TVOAcceptOptions.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOAcceptOptions.html; sourceTree = "<group>"; };
+		2639AAF4240CB1DE004F32C0 /* TVOIceCandidateStats.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOIceCandidateStats.html; sourceTree = "<group>"; };
+		2639AAF5240CB1DE004F32C0 /* TVOOpusCodec.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOOpusCodec.html; sourceTree = "<group>"; };
+		2639AAF6240CB1DE004F32C0 /* TVORemoteAudioTrackStats.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVORemoteAudioTrackStats.html; sourceTree = "<group>"; };
+		2639AAF7240CB1DE004F32C0 /* TVOConnectOptionsBuilder.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOConnectOptionsBuilder.html; sourceTree = "<group>"; };
+		2639AAF8240CB1DE004F32C0 /* TVOAudioCodec.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOAudioCodec.html; sourceTree = "<group>"; };
+		2639AAF9240CB1DE004F32C0 /* TVOPcmuCodec.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOPcmuCodec.html; sourceTree = "<group>"; };
+		2639AAFA240CB1DE004F32C0 /* TVOCallOptions.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOCallOptions.html; sourceTree = "<group>"; };
+		2639AAFB240CB1DE004F32C0 /* TVOIceOptions.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOIceOptions.html; sourceTree = "<group>"; };
+		2639AAFC240CB1DE004F32C0 /* TVOAudioFormat.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOAudioFormat.html; sourceTree = "<group>"; };
+		2639AAFD240CB1DE004F32C0 /* TVOCallOptionsBuilder.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOCallOptionsBuilder.html; sourceTree = "<group>"; };
+		2639AAFE240CB1DE004F32C0 /* TVOCallInvite.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOCallInvite.html; sourceTree = "<group>"; };
+		2639AAFF240CB1DE004F32C0 /* TVOAcceptOptionsBuilder.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOAcceptOptionsBuilder.html; sourceTree = "<group>"; };
+		2639AB00240CB1DE004F32C0 /* TVOLocalTrackStats.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOLocalTrackStats.html; sourceTree = "<group>"; };
+		2639AB01240CB1DE004F32C0 /* TVOBaseTrackStats.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOBaseTrackStats.html; sourceTree = "<group>"; };
+		2639AB02240CB1DE004F32C0 /* hierarchy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = hierarchy.html; sourceTree = "<group>"; };
+		2639AB04240CB1DE004F32C0 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		2639AB06240CB1DE004F32C0 /* TVOError.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOError.html; sourceTree = "<group>"; };
+		2639AB07240CB1DE004F32C0 /* TVOLogModule.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOLogModule.html; sourceTree = "<group>"; };
+		2639AB08240CB1DE004F32C0 /* TVOLogLevel.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOLogLevel.html; sourceTree = "<group>"; };
+		2639AB09240CB1DE004F32C0 /* TVOIceTransportPolicy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOIceTransportPolicy.html; sourceTree = "<group>"; };
+		2639AB0A240CB1DE004F32C0 /* TVOCallFeedbackIssue.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOCallFeedbackIssue.html; sourceTree = "<group>"; };
+		2639AB0B240CB1DE004F32C0 /* TVOCallFeedbackScore.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOCallFeedbackScore.html; sourceTree = "<group>"; };
+		2639AB0C240CB1DE004F32C0 /* TVOIceCandidatePairState.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOIceCandidatePairState.html; sourceTree = "<group>"; };
+		2639AB0D240CB1DE004F32C0 /* TVOCallState.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOCallState.html; sourceTree = "<group>"; };
+		2639AB10240CB1DE004F32C0 /* call_model.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = call_model.svg; sourceTree = "<group>"; };
+		2639AB12240CB1DE004F32C0 /* library_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library_background.png; sourceTree = "<group>"; };
+		2639AB13240CB1DE004F32C0 /* disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure.png; sourceTree = "<group>"; };
+		2639AB14240CB1DE004F32C0 /* disclosure_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure_open.png; sourceTree = "<group>"; };
+		2639AB15240CB1DE004F32C0 /* button_bar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bar_background.png; sourceTree = "<group>"; };
+		2639AB16240CB1DE004F32C0 /* title_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_background.png; sourceTree = "<group>"; };
+		2639AB18240CB1DE004F32C0 /* TwilioVoice+CallKitIntegration.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = "TwilioVoice+CallKitIntegration.html"; sourceTree = "<group>"; };
+		2639AB19240CB1DE004F32C0 /* TVOCallInvite+CallKit.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = "TVOCallInvite+CallKit.html"; sourceTree = "<group>"; };
+		2639AB1A240CB1DE004F32C0 /* TVOCallOptionsBuilder+CallKit.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = "TVOCallOptionsBuilder+CallKit.html"; sourceTree = "<group>"; };
+		2639AB1B240CB1DE004F32C0 /* TVOCallOptions+CallKit.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = "TVOCallOptions+CallKit.html"; sourceTree = "<group>"; };
+		2639AB1C240CB1DE004F32C0 /* TVOCall+CallKit.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = "TVOCall+CallKit.html"; sourceTree = "<group>"; };
+		2639AB1D240CB1DE004F32C0 /* TVOCallInvite+Utility.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = "TVOCallInvite+Utility.html"; sourceTree = "<group>"; };
+		2639AB1F240CB1DE004F32C0 /* TVOAudioDevice.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOAudioDevice.html; sourceTree = "<group>"; };
+		2639AB20240CB1DE004F32C0 /* TVONotificationDelegate.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVONotificationDelegate.html; sourceTree = "<group>"; };
+		2639AB21240CB1DE004F32C0 /* TVOAudioDeviceCapturer.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOAudioDeviceCapturer.html; sourceTree = "<group>"; };
+		2639AB22240CB1DE004F32C0 /* TVOCallDelegate.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOCallDelegate.html; sourceTree = "<group>"; };
+		2639AB23240CB1DE004F32C0 /* TVOAudioDeviceRenderer.html */ = {isa = PBXFileReference; lastKnownFileType = text.html.documentation; path = TVOAudioDeviceRenderer.html; sourceTree = "<group>"; };
+		2639AB24240CB1DE004F32C0 /* TwilioVoice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioVoice.framework; sourceTree = "<group>"; };
+		2639AB25240CB1DE004F32C0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2639AB26240CB1DE004F32C0 /* ACKNOWLEDGEMENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ACKNOWLEDGEMENTS.md; sourceTree = "<group>"; };
+		2639AB27240CB1DE004F32C0 /* changelog.url */ = {isa = PBXFileReference; lastKnownFileType = text; path = changelog.url; sourceTree = "<group>"; };
+		2639AB28240CB219004F32C0 /* TwilioVoice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioVoice.framework; sourceTree = "<group>"; };
+		2639AB2A240CB255004F32C0 /* libTwilioVoice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTwilioVoice.a; path = ../../libTwilioVoice/lib/libTwilioVoice.a; sourceTree = "<group>"; };
+		2639AB2C240CB296004F32C0 /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CallKit.framework; sourceTree = DEVELOPER_DIR; };
+		2639AB2E240CB2AF004F32C0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		2639AB30240CB2B8004F32C0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		2639AB32240CB2C1004F32C0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		2639AB34240CB2C9004F32C0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		2639AB36240CB2D3004F32C0 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/PushKit.framework; sourceTree = DEVELOPER_DIR; };
 		26C044B02409A93800F662CF /* libTwilioSimpleVoiceCall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTwilioSimpleVoiceCall.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C044B32409A93800F662CF /* TwilioSimpleVoiceCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwilioSimpleVoiceCall.h; sourceTree = "<group>"; };
 		26C044B42409A93800F662CF /* TwilioSimpleVoiceCall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwilioSimpleVoiceCall.m; sourceTree = "<group>"; };
@@ -35,17 +119,222 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2639AB2B240CB255004F32C0 /* libTwilioVoice.a in Frameworks */,
+				2639AB29240CB219004F32C0 /* TwilioVoice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2639AACF240CB1DE004F32C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2639AB36240CB2D3004F32C0 /* PushKit.framework */,
+				2639AB34240CB2C9004F32C0 /* CoreTelephony.framework */,
+				2639AB32240CB2C1004F32C0 /* AVFoundation.framework */,
+				2639AB30240CB2B8004F32C0 /* AudioToolbox.framework */,
+				2639AB2E240CB2AF004F32C0 /* SystemConfiguration.framework */,
+				2639AB2C240CB296004F32C0 /* CallKit.framework */,
+				2639AAD0240CB1DE004F32C0 /* Build */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2639AAD0240CB1DE004F32C0 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				2639AAD1240CB1DE004F32C0 /* iOS */,
+			);
+			name = Build;
+			path = ../../../../../Downloads/Build;
+			sourceTree = "<group>";
+		};
+		2639AAD1240CB1DE004F32C0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2639AB2A240CB255004F32C0 /* libTwilioVoice.a */,
+				2639AB28240CB219004F32C0 /* TwilioVoice.framework */,
+				2639AAD2240CB1DE004F32C0 /* TwilioVoice Size Impact Report.txt */,
+				2639AAD3240CB1DE004F32C0 /* Documentation */,
+				2639AB24240CB1DE004F32C0 /* TwilioVoice.framework */,
+				2639AB25240CB1DE004F32C0 /* README.md */,
+				2639AB26240CB1DE004F32C0 /* ACKNOWLEDGEMENTS.md */,
+				2639AB27240CB1DE004F32C0 /* changelog.url */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		2639AAD3240CB1DE004F32C0 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				2639AAD4240CB1DE004F32C0 /* Blocks */,
+				2639AADB240CB1DE004F32C0 /* index.html */,
+				2639AADC240CB1DE004F32C0 /* css */,
+				2639AAE7240CB1DE004F32C0 /* Classes */,
+				2639AB02240CB1DE004F32C0 /* hierarchy.html */,
+				2639AB03240CB1DE004F32C0 /* js */,
+				2639AB05240CB1DE004F32C0 /* Constants */,
+				2639AB0E240CB1DE004F32C0 /* docs */,
+				2639AB11240CB1DE004F32C0 /* img */,
+				2639AB17240CB1DE004F32C0 /* Categories */,
+				2639AB1E240CB1DE004F32C0 /* Protocols */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		2639AAD4240CB1DE004F32C0 /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				2639AAD5240CB1DE004F32C0 /* TVOIceOptionsBuilderBlock.html */,
+				2639AAD6240CB1DE004F32C0 /* TVOAcceptOptionsBuilderBlock.html */,
+				2639AAD7240CB1DE004F32C0 /* TVOConnectOptionsBuilderBlock.html */,
+				2639AAD8240CB1DE004F32C0 /* TVOCallGetStatsBlock.html */,
+				2639AAD9240CB1DE004F32C0 /* TVOAudioDeviceWorkerBlock.html */,
+				2639AADA240CB1DE004F32C0 /* TVOAVAudioSessionConfigurationBlock.html */,
+			);
+			path = Blocks;
+			sourceTree = "<group>";
+		};
+		2639AADC240CB1DE004F32C0 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				2639AADD240CB1DE004F32C0 /* scss */,
+				2639AAE6240CB1DE004F32C0 /* style.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		2639AADD240CB1DE004F32C0 /* scss */ = {
+			isa = PBXGroup;
+			children = (
+				2639AADE240CB1DE004F32C0 /* _index.scss */,
+				2639AADF240CB1DE004F32C0 /* _variables.scss */,
+				2639AAE0240CB1DE004F32C0 /* _xcode.scss */,
+				2639AAE1240CB1DE004F32C0 /* _print.scss */,
+				2639AAE2240CB1DE004F32C0 /* _layout.scss */,
+				2639AAE3240CB1DE004F32C0 /* _object.scss */,
+				2639AAE4240CB1DE004F32C0 /* style.scss */,
+				2639AAE5240CB1DE004F32C0 /* _normalize.scss */,
+			);
+			path = scss;
+			sourceTree = "<group>";
+		};
+		2639AAE7240CB1DE004F32C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2639AAE8240CB1DE004F32C0 /* TVOIceServer.html */,
+				2639AAE9240CB1DE004F32C0 /* TVODefaultAudioDevice.html */,
+				2639AAEA240CB1DE004F32C0 /* TVOCall.html */,
+				2639AAEB240CB1DE004F32C0 /* TVOLocalAudioTrackStats.html */,
+				2639AAEC240CB1DE004F32C0 /* TwilioVoice.html */,
+				2639AAED240CB1DE004F32C0 /* TVORemoteTrackStats.html */,
+				2639AAEE240CB1DE004F32C0 /* TVOIceCandidatePairStats.html */,
+				2639AAEF240CB1DE004F32C0 /* TVOConnectOptions.html */,
+				2639AAF0240CB1DE004F32C0 /* TVOStatsReport.html */,
+				2639AAF1240CB1DE004F32C0 /* TVOCancelledCallInvite.html */,
+				2639AAF2240CB1DE004F32C0 /* TVOIceOptionsBuilder.html */,
+				2639AAF3240CB1DE004F32C0 /* TVOAcceptOptions.html */,
+				2639AAF4240CB1DE004F32C0 /* TVOIceCandidateStats.html */,
+				2639AAF5240CB1DE004F32C0 /* TVOOpusCodec.html */,
+				2639AAF6240CB1DE004F32C0 /* TVORemoteAudioTrackStats.html */,
+				2639AAF7240CB1DE004F32C0 /* TVOConnectOptionsBuilder.html */,
+				2639AAF8240CB1DE004F32C0 /* TVOAudioCodec.html */,
+				2639AAF9240CB1DE004F32C0 /* TVOPcmuCodec.html */,
+				2639AAFA240CB1DE004F32C0 /* TVOCallOptions.html */,
+				2639AAFB240CB1DE004F32C0 /* TVOIceOptions.html */,
+				2639AAFC240CB1DE004F32C0 /* TVOAudioFormat.html */,
+				2639AAFD240CB1DE004F32C0 /* TVOCallOptionsBuilder.html */,
+				2639AAFE240CB1DE004F32C0 /* TVOCallInvite.html */,
+				2639AAFF240CB1DE004F32C0 /* TVOAcceptOptionsBuilder.html */,
+				2639AB00240CB1DE004F32C0 /* TVOLocalTrackStats.html */,
+				2639AB01240CB1DE004F32C0 /* TVOBaseTrackStats.html */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2639AB03240CB1DE004F32C0 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				2639AB04240CB1DE004F32C0 /* script.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		2639AB05240CB1DE004F32C0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2639AB06240CB1DE004F32C0 /* TVOError.html */,
+				2639AB07240CB1DE004F32C0 /* TVOLogModule.html */,
+				2639AB08240CB1DE004F32C0 /* TVOLogLevel.html */,
+				2639AB09240CB1DE004F32C0 /* TVOIceTransportPolicy.html */,
+				2639AB0A240CB1DE004F32C0 /* TVOCallFeedbackIssue.html */,
+				2639AB0B240CB1DE004F32C0 /* TVOCallFeedbackScore.html */,
+				2639AB0C240CB1DE004F32C0 /* TVOIceCandidatePairState.html */,
+				2639AB0D240CB1DE004F32C0 /* TVOCallState.html */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2639AB0E240CB1DE004F32C0 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				2639AB0F240CB1DE004F32C0 /* images */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		2639AB0F240CB1DE004F32C0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2639AB10240CB1DE004F32C0 /* call_model.svg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		2639AB11240CB1DE004F32C0 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				2639AB12240CB1DE004F32C0 /* library_background.png */,
+				2639AB13240CB1DE004F32C0 /* disclosure.png */,
+				2639AB14240CB1DE004F32C0 /* disclosure_open.png */,
+				2639AB15240CB1DE004F32C0 /* button_bar_background.png */,
+				2639AB16240CB1DE004F32C0 /* title_background.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		2639AB17240CB1DE004F32C0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2639AB18240CB1DE004F32C0 /* TwilioVoice+CallKitIntegration.html */,
+				2639AB19240CB1DE004F32C0 /* TVOCallInvite+CallKit.html */,
+				2639AB1A240CB1DE004F32C0 /* TVOCallOptionsBuilder+CallKit.html */,
+				2639AB1B240CB1DE004F32C0 /* TVOCallOptions+CallKit.html */,
+				2639AB1C240CB1DE004F32C0 /* TVOCall+CallKit.html */,
+				2639AB1D240CB1DE004F32C0 /* TVOCallInvite+Utility.html */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		2639AB1E240CB1DE004F32C0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2639AB1F240CB1DE004F32C0 /* TVOAudioDevice.html */,
+				2639AB20240CB1DE004F32C0 /* TVONotificationDelegate.html */,
+				2639AB21240CB1DE004F32C0 /* TVOAudioDeviceCapturer.html */,
+				2639AB22240CB1DE004F32C0 /* TVOCallDelegate.html */,
+				2639AB23240CB1DE004F32C0 /* TVOAudioDeviceRenderer.html */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		26C044A72409A93800F662CF = {
 			isa = PBXGroup;
 			children = (
 				26C044B22409A93800F662CF /* TwilioSimpleVoiceCall */,
 				26C044B12409A93800F662CF /* Products */,
+				2639AACF240CB1DE004F32C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

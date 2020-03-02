@@ -473,7 +473,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../../react-native/Libraries/**",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/TwilioVoice",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public",
 					"$(SRCROOT)/../../React/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -530,7 +531,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../../react-native/Libraries/**",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/TwilioVoice",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public",
 					"$(SRCROOT)/../../React/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -544,6 +546,7 @@
 		26C044BA2409A93800F662CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7TBPFF922;
 				OTHER_LDFLAGS = "-ObjC";
@@ -556,6 +559,7 @@
 		26C044BB2409A93800F662CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7TBPFF922;
 				OTHER_LDFLAGS = "-ObjC";

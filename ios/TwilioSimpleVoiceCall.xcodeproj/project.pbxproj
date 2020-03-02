@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2607F40A240CBDF5005C24DB /* libTwilioSimpleVoiceCall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C044B02409A93800F662CF /* libTwilioSimpleVoiceCall.a */; };
 		2639AB29240CB219004F32C0 /* TwilioVoice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2639AB28240CB219004F32C0 /* TwilioVoice.framework */; };
 		2639AB2B240CB255004F32C0 /* libTwilioVoice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2639AB2A240CB255004F32C0 /* libTwilioVoice.a */; };
 		26C044B52409A93800F662CF /* TwilioSimpleVoiceCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C044B42409A93800F662CF /* TwilioSimpleVoiceCall.m */; };
@@ -119,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2607F40A240CBDF5005C24DB /* libTwilioSimpleVoiceCall.a in Frameworks */,
 				2639AB2B240CB255004F32C0 /* libTwilioVoice.a in Frameworks */,
 				2639AB29240CB219004F32C0 /* TwilioVoice.framework in Frameworks */,
 			);
@@ -469,6 +471,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/**",
+					"$(SRCROOT)/../../React/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -521,6 +528,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/**",
+					"$(SRCROOT)/../../React/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

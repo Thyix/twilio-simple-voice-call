@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.authors      = spec['author']['name']
   s.homepage     = spec['homepage']
   s.license      = spec['license']
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "9.0"
 
   s.source_files = [ "ios/TwilioSimpleVoiceCall/*.h", "ios/TwilioSimpleVoiceCall/*.m"]
   s.source = {:path => "./TwilioSimpleVoiceCall"}
